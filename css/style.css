@@ -1,43 +1,50 @@
+/* Aplicação de boas práticas */
 * {
     box-sizing: border-box;
 }
 
-
+/* Reset do posicionamento do body e aplicação de uma única fonte*/
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding:0;
 }
 
+/* Fixação do header, aplicação de cor, centralização de texto e borda */
 header {
     position: fixed;
     background-color: rgb(245, 185, 215);
     text-align: center;
     width: 100%;
     border: 2px solid rgb(100, 100, 100);
-    padding: 10px;
+    padding: 20px;
 }
 
+/* Ajuste e retirada dos bullets da lista não-ordenada */
 ul {
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
+/*  Ajuste da lista para ficar com um ícone ao lado do outro */
 li {
     display: inline-block;
     padding: 20px;
 }
 
+/* Retirada do sublinhado dos ícones do menu */
 a {
     text-decoration: none;
 }
 
+/* Ajuste de cor e tamanho do main */
 main {
     background-color: #fcddf8;
     width: 100%;
 }
 
+/* Aplicação de borda pontilhada, cor, centralização do texto e transformação em letras maiúsculas */
 h1 {
     border-top: 3px dotted rgb(105, 26, 121);
     border-bottom: 3px dotted rgb(105, 26, 121);
@@ -47,6 +54,7 @@ h1 {
     color:rgb(172, 48, 110)
 }
 
+/* Aplicação de borda pontilhada, cor, centralização do texto e transformação em letras maiúsculas */
 h2 {
     border-top: 3px dotted rgb(105, 26, 121);
     border-bottom: 3px dotted rgb(105, 26, 121);
@@ -56,17 +64,20 @@ h2 {
     text-align: center;
 }
 
+/* Aplicação de parágrafo justificado, distanciamento entre linhas e margem para o texto */
 p {
     text-align: justify;
     line-height: 2;
     margin: 30px;
 }
 
+/* Redimensionamento da imagem */
 img {
    width: 100%;
    height: 30%;  
 }
 
+/* Redimensionamento do ícone e fixação */
 img.chat {
     width: 80px;
     height: 80px;
@@ -76,6 +87,7 @@ img.chat {
     z-index: 1;
 }
 
+/* Aplicação de cor, centralização do texto, caractéres em negrito e posição do footer */
 footer {
     background-color:rgb(252, 246, 159);
     text-align: center;
